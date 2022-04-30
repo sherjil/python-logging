@@ -14,7 +14,7 @@ msg['To'] = toEmail
 msg['Bcc'] = 'bbc@email.com'
 
 
-s = smtplib.SMTP('gator4016.hostgator.com', 587)
+s = smtplib.SMTP('server.hostgator.com', 587)
 
 s.starttls()
 
